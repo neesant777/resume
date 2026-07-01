@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.section { padding: 50px 0; }
+.bg-gray { background-color: #f4f4f4; }
+.bg-dark { background-color: #1a365d; color: white; }
+.text-center { text-align: center; }
+
+nav { background: #1a365d; color: white; padding: 15px 0; }
+.nav-flex { display: flex; justify-content: space-between; align-items: center; }
+nav ul { list-style: none; display: flex; gap: 15px; }
+nav a { color: white; text-decoration: none; font-weight: bold; }
+
+.about-flex { display: flex; align-items: center; gap: 30px; }
+.profile-img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 5px solid #1a365d; }
+
+.job-card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 20px; }
+.skills-grid span { background: #1a365d; color: white; padding: 10px; border-radius: 5px; text-align: center; }
